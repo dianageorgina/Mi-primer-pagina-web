@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--Así se pone un comentario, recuerda ese ¡Hola, mundo!-->
+<head>
+<title>Página de </title>
+<link href="estilos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Página de </h1>
+    <h3>Imágenes de </h3>
+    <!--Insertar imagen desde la web-->
+<img class="img1" src="https://www.ecoportal.net/wp-content/uploads/2020/09/colibri-rdn-801x601.jpg">
+<!--Insertar imagen desde mi compu--><!--Enlaces externos-->
+<p>Si quieres ver imagenes de michis,<a href="https://www.pinterest.com.mx/MirandaMendoxa/michis/" target="_blank"> da click en este enlace</a>.</p>
+<!--El target y blank son para que abra una nueva pestaña-->
+<h3>Listas de Michis</h3>
+<p>3 cosas que los michis <strong>aman</strong></p>
+<!--Lista ordenada (números-negrita)-->
+<ol><li>Dormir</li>
+    <li>Comer</li>
+    <li>Jugar</li>
+</ol>
+<!--Lista desordenada (puntos-cursiva)-->
+<p>3 cosas que los michis <i>odian</i></p>
+<ul>
+    <li>Bañarse</li>
+    <li>Estar solitos</li>
+    <li>Tener hambre</li>
+</ul>
+<!--Formularios-->
+<form>
+    <!--Form con botones de radio-->
+    <p>¿Tu gatito es cachorro o es adulto?</p>
+    <label>
+        <input id="Es un cachorrito" type="radio" value="cachorro" name="form-michis" checked> Es un cachorrito
+    </label>
+    <br>
+    <!--Aplica para imagen sobre imagen-->
+    <label>
+        <input id="Es un adulto" type="radio" value="adulto" name="form-michis"> Es un adulto
+    </label>
+    <!--Form con casillas de verificación / checks (para seleccionar varias opciones)-->
+    <p>¿Qué tipo de personalidad tiene tu michi?</p>
+    <label>
+        <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked> Es enojon
+    </label>
+    <br>
+    <label>
+        <input id="jugueton"
+        type="checkbox" value="jugueton" name="personalidad" checked> Es jugueton
+    </label>
+    <br>
+    <label>
+        <input id="dormilon"
+        type="checkbox" value="dormilon" name="personalidad" checked> Es de bajos niveles de energía
+    </label>
+    <br>
+    <label>
+        <input id="amable"
+        type="checkbox" value="amable" name="personalidad" checked> Es tierno y adorable y cariñoso
+    </label>
+</form>
+</body>
+<footer>
+    <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">TecnolochicasPRO</a>.</small></p>
+</footer>
